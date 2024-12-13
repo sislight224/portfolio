@@ -38,12 +38,12 @@ let data = {
             where: "Inmagine Innovation Sdn. Bhd.",
             des: "Worked on world class image editing WebGL Projects and WebGL Games http://www.pixlr.com/x/ | http://www.pixlr.com/e/",
         },
-        // {
-        //     during: "July 2014 - April 2018",
-        //     job: "Game Developer",
-        //     where: "Logic Simplified",
-        //     des: "Game Development in Unity3D ,ImpactJS, JavaScript-WebGL, Node.JS, Socket.IO for Multiple Mobile and Desktop Devices. The job responsibility in this company includes development of 2D and 3D games in Unity3D-C# after the assets are provided by the design team. I have also developed games for web browsers here using Three.JS, ImpactJS and Phaser libraries..",
-        // }
+        {
+            during: "July 2014 - April 2018",
+            job: "Game Developer",
+            where: "Logic Simplified",
+            des: "Game Development in Unity3D, ImpactJS, JavaScript-WebGL, Node.JS, Socket.IO for Multiple Mobile and Desktop Devices. The job responsibility in this company includes development of 2D and 3D games in Unity3D-C# after the assets are provided by the design team. I have also developed games for web browsers here using Three.JS, ImpactJS and Phaser libraries..",
+        }
     ],
 
 }
