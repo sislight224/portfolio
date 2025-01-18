@@ -21,6 +21,10 @@
   </head>
 
   <body>
+    <audio id="myAudio" controls autoplay loop hidden>
+      <source src="1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
     <!-- Animated Background -->
     <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
     <!-- /Animated Background -->
@@ -83,6 +87,13 @@
                 <a href="#contact" class="nav-anim">
                   <span class="menu-icon lnr lnr-envelope"></span>
                   <span class="link-text">Contact</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#portfolio" class="nav-anim" onclick="onAudioMute()">
+                  <span id="audioPart" class="menu-icon lnr lnr-volume"></span>
+                  <span class="link-text">Music</span>
                 </a>
               </li>
             </ul>
@@ -704,6 +715,9 @@
                           <li>
                             <a class="filter btn btn-sm btn-link" data-group="category_game">Game</a>
                           </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-group="category_blockchain">Blockchain</a>
+                          </li>
                         </ul>
 
                         <!-- Portfolio Grid -->
@@ -769,6 +783,37 @@
                             <h4 class="name">Exiade - Aeroschool</h4>
                             <span class="category">Exiade - Aeroschool</span>
                           </figure>
+
+                          <figure class="item lbvideo" data-groups='["category_all", "category_blockchain"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/7.jpg" alt="YouTube Video 1" title="" />
+                              <!-- <a href="https://boualemb.gitlab.io/aeroschool/" target="_blank"></a> -->
+                            </div>
+
+                            <h4 class="name">NFT Marketplace</h4>
+                            <span class="category">Nexus.art is built on Polygon Matic enabling artists and musicians to upload their art/music as an NFT and sell it to multiple users using Matic as a token. Auctions and Royalties are also a part of it.</span>
+                          </figure>
+
+                          <figure class="item lbvideo" data-groups='["category_all", "category_blockchain"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/8.jpg" alt="YouTube Video 1" title="" />
+                              <!-- <a href="https://boualemb.gitlab.io/aeroschool/" target="_blank"></a> -->
+                            </div>
+
+                            <h4 class="name">Play2Earn</h4>
+                            <span class="category">Definitely Legends is a complete Play2Earn platorm built on Binance Smart chain. Metaverse is also a part of this project along with a marketplace where game characters are basically NFTs with different attributes that user can purchase as per their needs to win the battles and get rewards. The users can also resell their NFT for royalties.</span>
+                          </figure>
+
+                          <figure class="item lbvideo" data-groups='["category_all", "category_mobile"]'>
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/9.jpg" alt="YouTube Video 1" title="" />
+                              <!-- <a href="https://boualemb.gitlab.io/aeroschool/" target="_blank"></a> -->
+                            </div>
+
+                            <h4 class="name">Mobile UI</h4>
+                            <span class="category">Mobile UI</span>
+                          </figure>
+
                         </div>
                       </div>
                       <!-- End of Portfolio Content -->

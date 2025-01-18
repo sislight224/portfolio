@@ -92,3 +92,27 @@ function init() {
 }
 
 init();
+
+function myFunction() {
+    document.getElementById("myAudio").play();
+}
+
+window.onAudioMute = () => {
+    const audio = document.getElementById("myAudio");
+    
+    if(audio.volume == 0.3) {
+        document.getElementById("audioPart").setAttribute("class", "menu-icon lnr lnr-volume-high");
+        audio.pause();
+        audio.volume = 0;
+    } else {
+        document.getElementById("audioPart").setAttribute("class", "menu-icon lnr lnr-volume");
+        audio.play();
+        audio.volume = 0.3;
+    }
+    
+    
+}
+
+window.onclick = () => {
+    myFunction();
+}
